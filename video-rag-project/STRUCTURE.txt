@@ -1,0 +1,49 @@
+video-rag-project/
+│
+├── 📁 data/                      # Директория с данными
+│   └── README.md                 # Описание формата данных
+│
+├── 📁 tests/                     # Тесты
+│   └── test_chunking.py          # Тесты модуля chunking
+│
+├── 🐍 Основные модули
+│   ├── config.py                 # Конфигурация проекта
+│   ├── data_loader.py            # Загрузка данных
+│   ├── chunking.py               # Разбиение на чанки
+│   ├── embeddings.py             # Векторные представления
+│   ├── indexing.py               # FAISS индексы
+│   ├── retriever.py              # Поиск фрагментов
+│   ├── main.py                   # Главный скрипт
+│   └── utils.py                  # Утилиты
+│
+├── 🔧 Вспомогательные скрипты
+│   ├── validate_data.py          # Валидация данных
+│   ├── setup.py                  # Установка пакета
+│   └── setup.sh                  # Быстрая установка
+│
+├── 📚 Документация
+│   ├── README.md                 # Основное описание (EN)
+│   ├── README_RU.md              # Описание (RU)
+│   ├── QUICKSTART.md             # Быстрый старт
+│   ├── ARCHITECTURE.md           # Архитектура
+│   ├── EXAMPLES.md               # Примеры
+│   ├── FAQ.md                    # Вопросы-ответы
+│   ├── PERFORMANCE.md            # Производительность
+│   ├── CHANGELOG.md              # История изменений
+│   ├── CONTRIBUTING.md           # Руководство по вкладу
+│   └── PROJECT_SUMMARY.md        # Сводка проекта
+│
+├── ⚙️ Конфигурация
+│   ├── requirements.txt          # Python зависимости
+│   ├── config.ini                # Настройки окружений
+│   ├── .gitignore                # Игнорируемые файлы
+│   ├── Makefile                  # Команды разработки
+│   └── LICENSE                   # Лицензия MIT
+│
+└── 📄 Дополнительно
+    └── .github-description.md    # Описание для GitHub
+
+Всего: 26 файлов
+- 8 Python модулей
+- 11 документов
+- 7 конфигурационных файлов
